@@ -1,0 +1,48 @@
+.container {
+  font-family: monospace;
+  margin: 50px 40px 50px 0px;
+  border: 2px solid rgb(138, 86, 139);
+  max-width: 720px;
+  border-radius: 55px;
+  padding: 50px;
+  display: block;
+  align-items: center;
+  background: linear-gradient(
+    109.6deg,
+    rgb(151, 213, 255) 11.2%,
+    rgb(255, 155, 185) 91.1%
+  );
+}
+h1 {
+  font-weight: 550;
+  padding: 10px 5px 0px 0px;
+  margin: 0;
+  font-family: monospace;
+}
+h2 {
+  margin-bottom: 45%;
+}
+#temperature {
+  color: rgb(33, 33, 33);
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.formText {
+  margin: 10px 50px 20px 0;
+  padding: 10px;
+  color: rebeccapurple;
+}
+
+div {
+  display: block;
+  color: rgb(56, 13, 99);
+}
+.col-4 {
+  font-family: monospace;
+}
+.information {
+  font-size: 20px;
+  margin-left: 35%;
+}
