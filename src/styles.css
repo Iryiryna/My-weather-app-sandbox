@@ -1,6 +1,6 @@
 .container {
   font-family: monospace;
-  margin: 30px auto;
+  margin: 50px 40px 50px 0px;
   border: 2px solid rgb(138, 86, 139);
   max-width: 720px;
   border-radius: 55px;
@@ -45,4 +45,7 @@ div {
 .information {
   font-size: 20px;
   margin-left: 35%;
+}
+.hosting {
+  font-family:Arial, Helvetica, sans-serif;
 }

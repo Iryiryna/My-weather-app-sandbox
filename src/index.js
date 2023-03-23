@@ -62,10 +62,6 @@ form.addEventListener("submit", searchCity);
 function weatherCity(response) {
   let temperature = document.querySelector("#temperature");
   temperature.innerHTML = `${Math.round(response.data.main.temp)}`;
-  let detailsElement = document.querySelector("#details");
-  detailsElement.innerHTML = response.data.weather[0].description;
-  let humidityElement = document.querySelector("#humidity");
- 
 
   let h1 = document.querySelector("h1");
   h1.innerHTML = response.data.name;
